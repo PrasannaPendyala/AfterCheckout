@@ -1,0 +1,8 @@
+package com.afterCheckout.AfterCheckout.repository;
+
+import com.afterCheckout.AfterCheckout.entity.Order;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderRepository extends JpaRepository<Order, Long> {
+
+}
